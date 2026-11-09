@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8ef;
+    color: #3d281c;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER STYLING */
+
+header {
+    background-color: #7b3f20;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* NAVIGATION BAR */
+
+nav {
+    background-color: #f0d5b5;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #4b2818;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a34e1d;
+    text-decoration: underline;
+}
+
+
+/* MAIN CONTENT */
+
+main {
+    width: 85%;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dfc4a8;
+}
+
+
+/* HEADINGS */
+
+h2 {
+    color: #7b3f20;
+    text-align: center;
+}
+
+h3 {
+    color: #a34e1d;
+}
+
+
+/* TABLE STYLING */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #9b765c;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0d5b5;
+}
+
+
+/* FORM STYLING */
+
+form {
+    width: 70%;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #9b765c;
+}
+
+
+/* BUTTON STYLING */
+
+button, .button-link {
+    display: inline-block;
+    background-color: #7b3f20;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover, .button-link:hover {
+    background-color: #a34e1d;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #7b3f20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

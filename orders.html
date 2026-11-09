@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Place Order - Sweet Crumbs Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Customer Orders</h1>
+    <p>Place Your Bakery Order</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="orders.html">Orders</a>
+    <a href="inventory.html">Inventory</a>
+    <a href="about.html">About Us</a>
+</nav>
+
+<main>
+    <h2>Order Form</h2>
+
+    <form id="orderForm">
+
+        <label for="customer">Customer Name:</label>
+        <input type="text" id="customer" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" required>
+
+        <label for="product">Select Product:</label>
+
+        <select id="product" required>
+           <option value="0">Select Product</option>
+           <option value="450">Chocolate Cake - Rs. 450</option>
+           <option value="300">Black Forest Cake - Rs. 300</option>
+           <option value="150">Cupcakes - Rs. 150</option>
+           <option value="100">Cookies - Rs. 100</option>
+           <option value="50">Brown Bread - Rs. 50</option>
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="1" value="1" required>
+
+        <label for="address">Delivery Address:</label>
+        <textarea id="address" rows="4"></textarea>
+
+        <button type="button" onclick="calculateBill()">Calculate Bill</button>
+
+        <h3 id="total">Total Amount: Rs. 0</h3>
+
+        <button type="submit">Confirm Order</button>
+
+    </form>
+
+    <p id="message"></p>
+    <script src="script.js" defer></script>
+
+</main>
+
+<footer>
+    <p>Copyright 2026 Sweet Crumbs Bakery</p>
+</footer>
+
+</body>
+</html>
